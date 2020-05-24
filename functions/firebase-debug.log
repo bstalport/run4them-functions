@@ -1,0 +1,87 @@
+[debug] [2020-05-19T17:32:08.508Z] ----------------------------------------------------------------------
+[debug] [2020-05-19T17:32:08.509Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:start --only functions
+[debug] [2020-05-19T17:32:08.510Z] CLI Version:   8.2.0
+[debug] [2020-05-19T17:32:08.510Z] Platform:      darwin
+[debug] [2020-05-19T17:32:08.510Z] Node Version:  v12.16.2
+[debug] [2020-05-19T17:32:08.511Z] Time:          Tue May 19 2020 19:32:08 GMT+0200 (GMT+02:00)
+[debug] [2020-05-19T17:32:08.511Z] ----------------------------------------------------------------------
+[debug] [2020-05-19T17:32:08.511Z] 
+[debug] [2020-05-19T17:32:08.516Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-19T17:32:08.516Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions
+[debug] [2020-05-19T17:32:08.550Z] [hub] writing locator at /var/folders/zj/dnvb7gfs7k3cs264pl2bq4fc0000gn/T/hub-run4them-1b0cf.json
+[info] ✔  hub: emulator hub started at http://localhost:4400
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: functions emulator started at http://localhost:5001
+[info] i  functions: Watching "/Users/benoitstalport/Documents/react/Run4Them/run4them-functions/functions" for Cloud Functions...
+[debug] [2020-05-19T17:32:08.571Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-05-19T17:32:08.571Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-05-19T17:32:08.571Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-05-19T17:32:08.572Z] [worker-~diagnostic~-f3c85d80-ff39-44fd-9756-b6ef7bc2e806]: Assigning socketPath: /var/folders/zj/dnvb7gfs7k3cs264pl2bq4fc0000gn/T/fire_emu_58811.sock 
+[debug] [2020-05-19T17:32:08.572Z] [worker-~diagnostic~-f3c85d80-ff39-44fd-9756-b6ef7bc2e806]: BUSY 
+[debug] [2020-05-19T17:32:08.761Z] [runtime-status] [58811] Functions runtime initialized. {"cwd":"/Users/benoitstalport/Documents/react/Run4Them/run4them-functions/functions","node_version":"12.16.2"} 
+[debug] [2020-05-19T17:32:08.761Z] [runtime-status] [58811] Disabled runtime features: undefined 
+[debug] [2020-05-19T17:32:08.762Z] [runtime-status] [58811] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"/Users/benoitstalport/Documents/react/Run4Them/run4them-functions/functions/node_modules/firebase-admin/lib/index.js"} 
+[debug] [2020-05-19T17:32:08.763Z] [runtime-status] [58811] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/benoitstalport/Documents/react/Run4Them/run4them-functions/functions/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-19T17:32:08.765Z] [runtime-status] [58811] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-19T17:32:08.785Z] [runtime-status] [58811] Checked functions.config() {"config":{}} 
+[debug] [2020-05-19T17:32:08.785Z] [runtime-status] [58811] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/benoitstalport/Documents/react/Run4Them/run4them-functions/functions/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-19T17:32:08.786Z] [runtime-status] [58811] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"/Users/benoitstalport/Documents/react/Run4Them/run4them-functions/functions/node_modules/firebase-admin/lib/index.js"} 
+[debug] [2020-05-19T17:32:08.786Z] [runtime-status] [58811] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/benoitstalport/Documents/react/Run4Them/run4them-functions/functions/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-19T17:32:08.786Z] [runtime-status] [58811] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.12.1","resolution":"/Users/benoitstalport/Documents/react/Run4Them/run4them-functions/functions/node_modules/firebase-admin/lib/index.js"}} 
+[debug] [2020-05-19T17:32:08.787Z] [runtime-status] [58811] initializeApp(DEFAULT) {"databaseURL":"https://run4them-1b0cf.firebaseio.com","storageBucket":"run4them-1b0cf.appspot.com","projectId":"run4them-1b0cf"} 
+[warn] ⚠  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[info] ✔  functions[activityServer]: http function initialized (http://localhost:5001/run4them-1b0cf/us-central1/activityServer).
+[info] i  functions[updateActivityValue]: function ignored because the firestore emulator does not exist or is not running.
+[info] ✔  emulators: All emulators started, it is now safe to connect.
+[debug] [2020-05-19T17:32:08.962Z] [worker-~diagnostic~-f3c85d80-ff39-44fd-9756-b6ef7bc2e806]: IDLE 
+[debug] [2020-05-19T17:32:16.052Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-05-19T17:32:16.053Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-05-19T17:32:16.053Z] Accepted request GET /run4them-1b0cf/us-central1/activityServer --> activityServer
+[debug] [2020-05-19T17:32:16.057Z] [worker-pool] addWorker(activityServer) 
+[debug] [2020-05-19T17:32:16.057Z] [worker-pool] Adding worker with key activityServer, total=1 
+[debug] [2020-05-19T17:32:16.058Z] [worker-pool] submitWork(triggerId=activityServer) 
+[debug] [2020-05-19T17:32:16.058Z] [worker-activityServer-b1267e03-2f2b-4c5b-bb29-b5c4d725c640]: Assigning socketPath: /var/folders/zj/dnvb7gfs7k3cs264pl2bq4fc0000gn/T/fire_emu_58822.sock 
+[debug] [2020-05-19T17:32:16.058Z] [worker-activityServer-b1267e03-2f2b-4c5b-bb29-b5c4d725c640]: BUSY 
+[debug] [2020-05-19T17:32:16.276Z] [runtime-status] [58822] Functions runtime initialized. {"cwd":"/Users/benoitstalport/Documents/react/Run4Them/run4them-functions/functions","node_version":"12.16.2"} 
+[debug] [2020-05-19T17:32:16.277Z] [runtime-status] [58822] Disabled runtime features: undefined 
+[debug] [2020-05-19T17:32:16.278Z] [runtime-status] [58822] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"/Users/benoitstalport/Documents/react/Run4Them/run4them-functions/functions/node_modules/firebase-admin/lib/index.js"} 
+[debug] [2020-05-19T17:32:16.279Z] [runtime-status] [58822] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/benoitstalport/Documents/react/Run4Them/run4them-functions/functions/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-19T17:32:16.281Z] [runtime-status] [58822] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-05-19T17:32:16.302Z] [runtime-status] [58822] Checked functions.config() {"config":{}} 
+[debug] [2020-05-19T17:32:16.302Z] [runtime-status] [58822] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/benoitstalport/Documents/react/Run4Them/run4them-functions/functions/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-19T17:32:16.303Z] [runtime-status] [58822] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.12.1","resolution":"/Users/benoitstalport/Documents/react/Run4Them/run4them-functions/functions/node_modules/firebase-admin/lib/index.js"} 
+[debug] [2020-05-19T17:32:16.303Z] [runtime-status] [58822] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.1","resolution":"/Users/benoitstalport/Documents/react/Run4Them/run4them-functions/functions/node_modules/firebase-functions/lib/index.js"} 
+[debug] [2020-05-19T17:32:16.303Z] [runtime-status] [58822] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.12.1","resolution":"/Users/benoitstalport/Documents/react/Run4Them/run4them-functions/functions/node_modules/firebase-admin/lib/index.js"}} 
+[debug] [2020-05-19T17:32:16.304Z] [runtime-status] [58822] initializeApp(DEFAULT) {"databaseURL":"https://run4them-1b0cf.firebaseio.com","storageBucket":"run4them-1b0cf.appspot.com","projectId":"run4them-1b0cf"} 
+[warn] ⚠  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production.
+[debug] [2020-05-19T17:32:16.532Z] [runtime-status] [58822] Trigger "activityServer" has been found, beginning invocation! 
+[info] i  functions: Beginning execution of "activityServer"
+[debug] [2020-05-19T17:32:16.533Z] [runtime-status] [58822] triggerDefinition {"httpsTrigger":{},"name":"activityServer","entryPoint":"activityServer"} 
+[debug] [2020-05-19T17:32:16.533Z] [runtime-status] [58822] Running activityServer in mode HTTPS 
+[debug] [2020-05-19T17:32:16.535Z] [runtime-status] [58822] Attempting to listen to socketPath: /var/folders/zj/dnvb7gfs7k3cs264pl2bq4fc0000gn/T/fire_emu_58822.sock 
+[debug] [2020-05-19T17:32:16.537Z] [functions] Runtime ready! Sending request! 
+[debug] [2020-05-19T17:32:16.543Z] [runtime-status] [58822] Ephemeral server handling GET request 
+[info] >  Check if request is authorized with Firebase ID token {"user":"Check if request is authorized with Firebase ID token"}
+[info] >  No Firebase ID token was passed as a Bearer token in the Authorization header. Make sure you authorize your request by providing the following HTTP header: Authorization: Bearer <Firebase ID Token> or by passing a "__session" cookie. {"user":"No Firebase ID token was passed as a Bearer token in the Authorization header. Make sure you authorize your request by providing the following HTTP header: Authorization: Bearer <Firebase ID Token> or by passing a \"__session\" cookie."}
+[debug] [2020-05-19T17:32:16.549Z] [runtime-status] [58822] Ephemeral server survived. 
+[info] i  functions: Finished "activityServer" in ~1s
+[debug] [2020-05-19T17:32:16.551Z] [worker-activityServer-b1267e03-2f2b-4c5b-bb29-b5c4d725c640]: IDLE 
+[debug] [2020-05-19T17:32:16.551Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-05-19T17:32:21.631Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-05-19T17:32:21.631Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-05-19T17:32:21.631Z] Accepted request GET /run4them-1b0cf/us-central1/activityServer/hello --> activityServer
+[debug] [2020-05-19T17:32:21.631Z] [worker-pool] submitWork(triggerId=activityServer) 
+[debug] [2020-05-19T17:32:21.631Z] [worker-activityServer-b1267e03-2f2b-4c5b-bb29-b5c4d725c640]: Assigning socketPath: /var/folders/zj/dnvb7gfs7k3cs264pl2bq4fc0000gn/T/fire_emu_58822.sock 
+[debug] [2020-05-19T17:32:21.631Z] [worker-activityServer-b1267e03-2f2b-4c5b-bb29-b5c4d725c640]: BUSY 
+[debug] [2020-05-19T17:32:21.632Z] [runtime-status] [58822] Trigger "activityServer" has been found, beginning invocation! 
+[info] i  functions: Beginning execution of "activityServer"
+[debug] [2020-05-19T17:32:21.632Z] [runtime-status] [58822] triggerDefinition {"httpsTrigger":{},"name":"activityServer","entryPoint":"activityServer"} 
+[debug] [2020-05-19T17:32:21.633Z] [runtime-status] [58822] Running activityServer in mode HTTPS 
+[debug] [2020-05-19T17:32:21.633Z] [runtime-status] [58822] Attempting to listen to socketPath: /var/folders/zj/dnvb7gfs7k3cs264pl2bq4fc0000gn/T/fire_emu_58822.sock 
+[debug] [2020-05-19T17:32:21.634Z] [functions] Runtime ready! Sending request! 
+[debug] [2020-05-19T17:32:21.637Z] [runtime-status] [58822] Ephemeral server handling GET request 
+[debug] [2020-05-19T17:32:21.638Z] [runtime-status] [58822] Ephemeral server survived. 
+[info] i  functions: Finished "activityServer" in ~1s
+[debug] [2020-05-19T17:32:21.639Z] [worker-activityServer-b1267e03-2f2b-4c5b-bb29-b5c4d725c640]: IDLE 
+[debug] [2020-05-19T17:32:21.639Z] [work-queue] {"queueLength":0,"workRunningCount":0}
